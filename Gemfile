@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
-group :test do
-  gem "html-proofer"
-end
+gem "rake"
+gem "github-pages"
+gem "html-proofer", '~> 3.11'
+gem "jekyll-remote-theme"
