@@ -2,6 +2,7 @@ language: ruby
 cache: bundler # caching to speed up dependency installation
 rvm:
 - 2.4.1
+dist: trusty
 addons:
   apt:
     packages:
@@ -13,9 +14,3 @@ script:
 - echo "Starting build!"
 - bundle exec jekyll build
 - echo "Finished build."
-jobs:
-  include:
-    - stage: build
-      script: script/build
-    - stage: testlinks
-      script: REPLACE-ME-WITH-HTML-PROOFER-SCRIPT
