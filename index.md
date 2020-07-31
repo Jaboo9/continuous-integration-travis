@@ -1,6 +1,7 @@
 ---
 layout: default
 # Feel free to add content and custom Front Matter to this file.
+# ADJUSTMENT
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 ---
@@ -17,3 +18,4 @@ Oops
 
 What do you think
 
+LETS SEE AGAIN
