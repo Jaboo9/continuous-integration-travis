@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Getting ready for class
+Default
 ---
 
 The time is: undefined
